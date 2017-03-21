@@ -1,0 +1,21 @@
+<article class="listing">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{item.image}}" alt="">
+    <small>View Larger</small>
+  </a>
+  <h3>{{#link-to "galleries.show" item}}{{item.title}}{{/link-to}}</h3>
+  <div class="detail owner">
+    <span>Photographer:</span> {{item.photographer}}
+  </div>
+  <div class="detail type">
+    <span>Award:</span> {{award-level item.award item.rating}} - {{item.award}}
+  </div>
+  <div class="detail location">
+    <span>Location:</span> {{item.location}}
+  </div>
+  <div class="detail bedrooms">
+    <span>
+      {{star-rating item.rating numStars=5 readOnly=true baseColor="Grey" fillColor="#f2b01e"}}
+    </span>
+  </div>
+</article>

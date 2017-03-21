@@ -1,0 +1,28 @@
+
+<div class="galleries-show-list">
+  <ul>
+    <li>
+      <select onchange={{action "selectFilter" value="target.value"}}>
+        {{#each options as |choice|}}
+          <option value={{choice}} >{{choice}}</option>
+        {{/each}}
+      </select>
+    </li>
+
+
+    <li>
+      {{input value=filterText type='text' placeholder=filterPlaceHolderText}}
+    </li>
+
+  </ul>
+
+
+</div>
+
+<ul class="results">
+  {{#each listResults as |listItem|}}
+    <!--galleries-listing, components, -->
+    <li>{{galleries-listing item=listItem}}</li>
+  {{/each}}
+</ul>
+

@@ -1,0 +1,32 @@
+<div class="jumbo show-listing">
+  <h2 class="title">{{model.title}}</h2>
+  <div class="right detail-section">
+    <div class="detail owner">
+      <strong>Photogrpher:</strong> {{model.photographer}}
+    </div>
+    <div class="detail">
+      <strong>Award:</strong> {{award-level model.award}} - {{model.award}}
+    </div>
+    <div class="detail">
+      <strong>Location:</strong> {{model.location}}
+    </div>
+    <div class="detail">
+      <strong>Rating:</strong>
+      <span>
+        {{star-rating model.rating numStars=5 readOnly=true baseColor="Grey" fillColor="#f2b01e"}}
+      </span>
+
+    </div>
+    <br>
+    <div class="detail">
+      <strong>Descriptions:</strong>
+      <p class="description">{{model.description}}</p>
+    </div>
+
+    {{#link-to 'galleries' class="button"}}
+      Back
+    {{/link-to}}
+
+  </div>
+  <img src="{{model.image}}" class="photo-pic">
+</div>

@@ -1,0 +1,37 @@
+<!--taskController is defined in edit controller-->
+<h3>Edit Task {{taskController.id}}</h3>
+
+<br>
+<form>
+
+
+
+
+  <div class="form-group-editor">
+    <ul class = "task-form-group-edit">
+      <li>
+        <label for="due-date">Due</label>
+        {{input type = "date" autoclose=true value=deadlineInput placeholder=taskController.deadline}}
+        <span>Choose Due Date</span>
+      </li>
+
+      <li>
+        <label for="task-description">Description</label>
+        {{input value=descriptionInput placeholder=taskController.description}}
+        <span>Enter task descriptions</span>
+      </li>
+
+    </ul>
+
+    <div class = "save-edit-task">
+      <button {{action 'saveEdit' model descriptionInput deadlineInput}}class="save-task-btn" type="submit">Save</button>
+      <button {{action 'closeEdit' }}class="close-edit-task-btn" type="submit">Back</button>
+
+    </div>
+
+  </div>
+
+
+
+
+</form>
