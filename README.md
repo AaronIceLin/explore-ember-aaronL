@@ -21,7 +21,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/AaronIceLin/explore-ember-aaronL.git` this repository
 * `cd explore-ember-aaronL`
 * `npm install`
 * `bower install`
