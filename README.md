@@ -1,7 +1,13 @@
 # explore-ember-aaronL
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This porject includes products of photo gallery, To-Do List widget, and personal portfolio. 
+
+Photo gallery shows list of my favorite pictures with photo details. Apply text filter to narrow down list results.
+
+To-Do list widget is designed to manage tasks, and tasks are sorted by due dates.There are three categories: "All", "Complete", and "Incomplete" to narrow down list items.Features include adding new task with description and due date,
+editing or removing existing task, and marking task as complete or incomplete.
+
+Visit online [DEMO](https://aaronicelin.github.io/explore-ember-aaronL/)
 
 ## Prerequisites
 
@@ -25,10 +31,6 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
 ### Running Tests
 
 * `ember test`
@@ -38,10 +40,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
