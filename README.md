@@ -2,9 +2,9 @@
 
 This porject includes products of photo gallery, To-Do List widget, and personal portfolio. 
 
-Photo gallery shows list of my favorite pictures. Click on each picture to transfer to view photo details. Quick view is able to preview larger picure in the page. Apply text filter to narrow down list results by all, award, photographer, and location.
+Photo gallery shows a list of my favorite pictures. Click on each picture title to view photo details. You can use Quick View to preview larger picure in the page. Apply text filter to narrow down list results by all, award, photographer, and location.
 
-To-Do list widget is designed to manage tasks, and tasks are sorted by due dates.There are three categories: "All", "Complete", and "Incomplete" to narrow down list items.Features include adding new task with description and due date,
+To-Do list widget is designed to manage tasks, and tasks are sorted by due dates.There are three categories: "All", "Complete", and "Incomplete" to narrow down list items. Features include adding new task with description and due date,
 editing or removing existing task, and marking task as complete or incomplete.
 
 Visit online [DEMO](https://aaronicelin.github.io/explore-ember-aaronL/)
